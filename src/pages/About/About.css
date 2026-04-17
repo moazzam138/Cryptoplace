@@ -1,0 +1,76 @@
+/* Main container */
+.about {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #4b4b4e);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  color: #ffffff;
+}
+
+/* Content box */
+.about-container {
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 40px;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Heading */
+.about h1 {
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+/* Sub headings */
+.about h2 {
+  margin-top: 25px;
+  font-size: 24px;
+  color: #a855f7;
+}
+
+/* Paragraph */
+.about p {
+  margin-top: 10px;
+  line-height: 1.7;
+  font-size: 16px;
+  color: #d1d5db;
+}
+
+/* List */
+.about ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.about li {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #e5e7eb;
+}
+
+/* Hover effect for list */
+.about li:hover {
+  color: #a855f7;
+  transition: 0.3s;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .about-container {
+    padding: 25px;
+  }
+
+  .about h1 {
+    font-size: 32px;
+  }
+
+  .about h2 {
+    font-size: 20px;
+  }
+}

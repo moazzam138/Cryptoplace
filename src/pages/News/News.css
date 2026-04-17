@@ -1,0 +1,89 @@
+/* Main page */
+.news {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: #ffffff;
+  padding: 50px 20px;
+}
+
+/* Heading */
+.news h1 {
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+/* Grid layout */
+.news-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Card */
+.news-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 15px;
+  border-radius: 15px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Hover effect */
+.news-card:hover {
+  transform: translateY(-8px) scale(1.02);
+}
+
+/* Image */
+.news-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Title */
+.news-card h3 {
+  margin: 12px 0 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Description */
+.news-card p {
+  font-size: 14px;
+  color: #d1d5db;
+  line-height: 1.5;
+}
+
+/* Read more button */
+.news-card a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: #a855f7;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+/* Hover link */
+.news-card a:hover {
+  color: #c084fc;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .news h1 {
+    font-size: 28px;
+  }
+
+  .news-card img {
+    height: 140px;
+  }
+}
