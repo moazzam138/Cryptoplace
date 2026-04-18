@@ -6,7 +6,7 @@ import Coin from './pages/Coin/Coin'
 import Footer from './components/Footer/Footer'
 import About from './pages/About/About'
 import News from './pages/News/News'
-import Articles from './pages/Articals/Articles'
+import Articles from './pages/Articles/Articles'
 import Signup from './pages/Auth/Signup'
 import Login from './pages/Auth/Login'
 
